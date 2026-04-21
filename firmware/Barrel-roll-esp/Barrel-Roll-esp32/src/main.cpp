@@ -1,23 +1,14 @@
 #include <Arduino.h>
-#include <Servo.h>
 #include <AlfredoCRSF.h>
+#include <Servo.h>
 
-// put function declarations here:
 
-//Pins
-//On the dc motor controller
-/*int driveMotor1Pin1 = 2;
-int driveMotor1Pin2 = 4;
-int driveMotor2Pin1 = 7;
-int driveMotor2Pin2 = 5;*/
 
-// On the xiao
-int driveMotor1Output1 = 1;
-int driveMotor1Output2 = 2;
-int driveMotor2Output1 = 3;
-int driveMotor2Output2 = 4;
-int weaponMotorOutput = 5;
-
+int driveMotor1Output1 = 36;
+int driveMotor1Output2 = 39;
+int driveMotor2Output1 = 35;
+int driveMotor2Output2 = 34;
+int weaponMotorOutput = 13;
 
 float leftJoystickX;
 float leftJoystickY;
@@ -92,4 +83,3 @@ void loop() {
     }
   }
 }
-

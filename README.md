@@ -63,7 +63,7 @@ The above is the main shell
 The above is the side shell
 For the rest of it you should look at the onshape document.
 
-To assemble the Main shell with the Side Shells you can use the bowtie connector along side the fastening rod to attach each part of the SIDE_SHELL without the use of metal connectors. However you may find that securing the weapon/shaft/shaft caps and belt may be easier than attaching SIDE_SHELL to MAIN_SHELL immediately. After you get the side shells attached to the main shell you need to place all of the remaining electronics into the shell. After this is done you can use the heatset inserts into the holes at the top of the Main shell.
+To assemble the Main shell with the Side Shells you can use the bowtie connector along side the fastening rod to attach each part of the SIDE_SHELL without the use of metal connectors. However you may find that securing the weapon/shaft/shaft caps and belt may be easier than attaching SIDE_SHELL to MAIN_SHELL immediately. After you get the side shells attached to the main shell you need to place all of the remaining electronics into the shell. After this is done you can use the heatset inserts into the holes at the top of the Main shell. I would highly recomend taking a look into the onshape so you can see what I am descibing here.
 
 
 ## Usage

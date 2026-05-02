@@ -4,7 +4,7 @@
 Barrel roll is a 150g combat robot that has a 2.706693 inch long bar spinner. There are two options for the microcontroller of the robot. Right now I have a pcb designed with a RP2040 in mind. I also have a version of the schematic/firmware with an esp32 as the microcontroller.
 
 ## Why I created this
-I created barrel roll because the way I got into robotics/programming/stem in general is through watching various battlebots-like shows and videos on the internet. So for a long time, I wanted to create my own battle bot. Once I saw the Fallout event by Hack Club I decided that it would be an amazing opportunity to create something similar to what got me into this in the first place.
+I created barrel roll because the way I got into robotics/programming/stem in general is through watching various battlebots-like shows and videos on the internet. So for a long time, I wanted to create my own battle bot. Once I saw the Fallout event by Hack Club I decided that it would be an amazing opportunity to create something similar to what got me into this in the first place. My goal with barrel roll is to create a bar spinner battle bot that could compete in the 150g weight class.
 
 ## PCB
 ![image](assets/PCB.png)
@@ -64,7 +64,7 @@ After this you should be able to control the robot using your controller.
 
 ## BOM
 There are three BOMs one for SMD, DIP and one if you are simply using a esp32.
-The "master" BOM can be found here [BOM](assets/BOM.csv)
+The "master" BOM can be found here [BOM](assets/BOM.csv)(This will be the most convienient to use and will be the most updated in the coming months.)
 ### BOM for PCB
  [Here is the .csv for the BOM](assets/BarrelRollerBOM.csv)
 ### BOM if you are not using a PCB

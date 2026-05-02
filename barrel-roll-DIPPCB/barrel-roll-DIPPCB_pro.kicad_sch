@@ -2819,7 +2819,7 @@
 			(uuid "08aeb09b-47df-459a-9457-355f24afcddf")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "U4")
 					(unit 1)
@@ -2911,7 +2911,7 @@
 			(uuid "bff92c14-e13b-402f-9823-d0cace900197")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "MX-5A_ESC1")
 					(unit 1)
@@ -2990,7 +2990,7 @@
 			(uuid "3744cbcd-ebe0-4994-ae94-3b3cde9e116b")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "TP5")
 					(unit 1)
@@ -3072,7 +3072,7 @@
 			(uuid "63df3b54-efe9-4ed4-a85f-e0f56ea6f921")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "M2")
 					(unit 1)
@@ -3151,7 +3151,7 @@
 			(uuid "4c228517-46da-473b-985a-52906075d46a")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR02")
 					(unit 1)
@@ -3229,7 +3229,7 @@
 			(uuid "b6a3a7f6-b407-4754-a349-039fb1901664")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR08")
 					(unit 1)
@@ -3307,7 +3307,7 @@
 			(uuid "72a68c81-49f8-4632-bcb1-5bd1f4f11a1f")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR01")
 					(unit 1)
@@ -3392,7 +3392,7 @@
 			(uuid "6be7476c-a91f-4199-9241-5c815d13e627")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "U3")
 					(unit 1)
@@ -3471,7 +3471,7 @@
 			(uuid "f7dd0cf1-14d9-4f8c-98d2-dada66cff93a")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR09")
 					(unit 1)
@@ -3550,7 +3550,7 @@
 			(uuid "3aeaec60-9c54-4ade-a7fb-f791c248d123")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR04")
 					(unit 1)
@@ -3629,7 +3629,7 @@
 			(uuid "e882b335-b9fd-41b6-9993-583c9f4ec92c")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR05")
 					(unit 1)
@@ -3708,7 +3708,7 @@
 			(uuid "f1473eff-7f97-4a81-9668-028726fb0c79")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR07")
 					(unit 1)
@@ -3790,7 +3790,7 @@
 			(uuid "18f925d1-56db-4886-bd21-d52ffb4e381b")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "M1")
 					(unit 1)
@@ -3869,7 +3869,7 @@
 			(uuid "2daf0788-686c-4f6e-b337-4978f9d9a28e")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "TP3")
 					(unit 1)
@@ -3909,7 +3909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-RP2040-SMD"
+		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-RP2040-DIP"
 			(at 123.698 117.348 0)
 			(hide yes)
 			(show_name no)
@@ -3985,7 +3985,7 @@
 			(uuid "0b4af7eb-d920-4094-b884-fdecc9575969")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "U1")
 					(unit 1)
@@ -4064,7 +4064,7 @@
 			(uuid "011216c0-0a4b-4d23-9a0f-67a14aea02ab")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "#PWR06")
 					(unit 1)
@@ -4143,7 +4143,7 @@
 			(uuid "bbaa2198-b6fa-433c-8a81-24026078f851")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "TP4")
 					(unit 1)
@@ -4269,7 +4269,7 @@
 			(uuid "fa4a86f8-5b52-4898-8797-28e21fafe9e3")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "U2")
 					(unit 1)
@@ -4351,7 +4351,7 @@
 			(uuid "18a642ff-a4a3-46f4-b4c6-071eb66e2b3a")
 		)
 		(instances
-			(project "barrel-roll"
+			(project "barrel-roll-DIPPCB_pro"
 				(path "/78e1f998-c6c8-4383-a798-619907ba92a3"
 					(reference "XT1")
 					(unit 1)

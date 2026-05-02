@@ -4,7 +4,7 @@
 Barrel roll is a 150g combat robot that has a 2.706693 inch long bar spinner. There are two options for the microcontroller of the robot. Right now I have a pcb designed with a RP2040 in mind. I also have a version of the schematic/firmware with an esp32 as the microcontroller.
 
 ## Why I created this
-I created barrel roll because the way I got into robotics/programming/stem in general is through watching various battlebots-like shows and videos on the internet. So for a long time, I wanted to create my own battle bot. Once I saw the Fallout event by Hack Club I decided that it would be an amazing opportunity to create something similar to what got me into this in the first place. My goal with barrel roll is to create a bar spinner battle bot that could compete in the 150g weight class.
+I created barrel roll because the way I got into robotics/programming/stem in general is through watching various battlebots-like shows and videos on the internet. So for a long time, I wanted to create my own battle bot. Once I saw the Fallout event by Hack Club I decided that it would be an amazing opportunity to create something similar to what got me into this in the first place. My goal with barrel roll is to create a bar spinner battle bot that could compete in the 150g weight class.(not necessarily well)
 
 ## PCB
 ![image](assets/PCB.png)
@@ -22,8 +22,6 @@ The above is a picture of the schematic for anyone using the DOIT esp32 devkit v
 Onshape link: https://cad.onshape.com/documents/4d0cf8c11fd66439fc3e30b0/w/a8064dfad10d7d33689fe150/e/b5006982824e862bc7271070?renderMode=0&uiState=69e65a2ccd9a40dd9e183c54
 ![image](assets/FinalAssembly.png)
 A note about the assembly: I could not find 3d models of the bearings I wanted to use so I made a model with the same dimensions as the bearings. /n
-#### 3D printing
-To assemble the barrel-roll you first need to print out the parts specified in the onshape document. All the parts in the FINAL folder must be printed There will be a note with the quantity and the infill amount. The fillament for all of these will be up to you. I will personally be using TPU.
 
 ### PCBs/Electronics
 For this project I made several usable versions of the electronics. I did this to make sure that when it comes time for me to actually build this I can still build it even if I don't have some of the equipment that I need. The main distinction between all of the options are the different ways to soder on the microcontroller. For the no pcb method you could just use an esp32 instead of a xiao rp2040.
@@ -42,6 +40,18 @@ If you are not using a PCB your costs will be a little bit lower since you don't
 In order to assemble the weapon system properly you want to make sure that you place the parts on the axle in the correct order. Axle stopper, Weapon with bearing, Axle stopper. Then you need to place the axle onto the two pieces on the Side shell.
 ![image](assets/FrontAssembly.png)
 Here is a picture of the front assembly that you should try to replicate.
+
+
+#### 3D printing
+To assemble the barrel-roll you first need to print out the parts specified in the onshape document. All the parts in the FINAL folder must be printed There will be a note with the quantity and the infill amount. The fillament for all of these will be up to you. I will personally be using TPU. If you do not want to go into the Onshape, All of the final .step files will be in [models/FinalParts](models/FinalParts).\
+\
+ You need to print:
+* 1 BodyFinalPart1.step
+* 1 BodyFinalPart2.step
+* 2 n20motorToWheel.step
+* 2 shaftcap.step
+* 1 WeaponMotorTimingWheel.step
+* 1 WeaponV2.step
 
 
 

@@ -7,20 +7,20 @@ Barrel roll is a 150g combat robot that has a 2.706693 inch long bar spinner. Th
 I created barrel roll because the way I got into robotics/programming/stem in general is through watching various battlebots-like shows and videos on the internet. So for a long time, I wanted to create my own battle bot. Once I saw the Fallout event by Hack Club I decided that it would be an amazing opportunity to create something similar to what got me into this in the first place. My goal with barrel roll is to create a bar spinner battle bot that could compete in the 150g weight class.(not necessarily well)
 
 ## PCB
-![image](assets/PCB.png)
-![image](assets/PCBSchem.png)
+![image](ReadmeAssets/PCB.png)
+![image](ReadmeAssets/PCBSchem.png)
 Above are the images of the PCB version of the electrical components of the robot(To be honest right now it feels more like a glorified pinout board)
 
-![image](assets/PCBDIP.png)
+![image](ReadmeAssets/PCBDIP.png)
 Above is a picture of the pcb using DIP sodering. The schematic is the same as the original SMD sodered PCB.
 
-![image](assets/ESP32Schem.png)
+![image](ReadmeAssets/ESP32Schem.png)
 The above is a picture of the schematic for anyone using the DOIT esp32 devkit v1. I made this one because it could cut down on the cost of the project as a whole.
 
 
 ## Assembly
 Onshape link: https://cad.onshape.com/documents/4d0cf8c11fd66439fc3e30b0/w/a8064dfad10d7d33689fe150/e/b5006982824e862bc7271070?renderMode=0&uiState=69e65a2ccd9a40dd9e183c54
-![image](assets/FinalAssembly.png)
+![image](ReadmeAssets/FinalAssembly.png)
 A note about the assembly: I could not find 3d models of the bearings I wanted to use so I made a model with the same dimensions as the bearings. /n
 
 ### PCBs/Electronics
@@ -38,7 +38,7 @@ If you are not using a PCB your costs will be a little bit lower since you don't
 
 #### Assembling the weapon system shell
 In order to assemble the weapon system properly you want to make sure that you place the parts on the axle in the correct order. Axle stopper, Weapon with bearing, Axle stopper. Then you need to place the axle onto the two pieces on the Side shell.
-![image](assets/FrontAssembly.png)
+![image](ReadmeAssets/FrontAssembly.png)
 Here is a picture of the front assembly that you should try to replicate.
 
 
@@ -57,9 +57,9 @@ To assemble the barrel-roll you first need to print out the parts specified in t
 
 #### Assembling the shell
 ##### For context:
-![image](assets/MainShell.png)
+![image](ReadmeAssets/MainShell.png)
 The above is the main shell
-![image](assets/SideShell.png)
+![image](ReadmeAssets/SideShell.png)
 The above is the side shell
 For the rest of it you should look at the onshape document.
 
@@ -74,15 +74,15 @@ After this you should be able to control the robot using your controller.
 
 ## BOM
 There are three BOMs one for SMD, DIP and one if you are simply using a esp32.
-The "master" BOM can be found here [BOM](assets/BOM.csv)(This will be the most convienient to use and will be the most updated in the coming months.)
+The "master" BOM can be found here [BOM](ReadmeAssets/BOM.csv)(This will be the most convienient to use and will be the most updated in the coming months.)
 ### BOM for PCB
- [Here is the .csv for the BOM](assets/BarrelRollerBOM.csv)
+ [Here is the .csv for the BOM](ReadmeAssets/BarrelRollerBOM.csv)
 ### BOM if you are not using a PCB
- [Here is the .csv for the BOM](assets/BarrelRollerBOMnopcb.csv)
+ [Here is the .csv for the BOM](ReadmeAssets/BarrelRollerBOMnopcb.csv)
 ### BOM PCB-DIP
- [Here is the .csv for the BOM](assets/BarrelRollerBOMDIP.csv)
+ [Here is the .csv for the BOM](ReadmeAssets/BarrelRollerBOMDIP.csv)
 
 
 ## Poster
-![image](assets/BarrelRoller.png)
+![image](ReadmeAssets/BarrelRoller.png)
 [Poster](Poster/Barrel%20Roller.pdf)

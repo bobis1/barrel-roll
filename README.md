@@ -1,5 +1,8 @@
 # barrel-roll
 
+![image](ReadmeAssets/DissassembledRender.png)
+_Slightly dissassembled view of barrel roll._
+
 ## What is this
 Barrel roll is a 150g combat robot that has a 2.706693 inch long bar spinner. There are two options for the microcontroller of the robot. Right now I have a pcb designed with a RP2040 in mind. I also have a version of the schematic/firmware with an esp32 as the microcontroller.
 
@@ -23,6 +26,8 @@ Onshape link: https://cad.onshape.com/documents/4d0cf8c11fd66439fc3e30b0/w/a8064
 ![image](ReadmeAssets/FinalAssembly.png)
 A note about the assembly: I could not find 3d models of the bearings I wanted to use so I made a model with the same dimensions as the bearings. /n
 
+As a note I intend on using the PCB SMD BOM.
+
 ### PCBs/Electronics
 For this project I made several usable versions of the electronics. I did this to make sure that when it comes time for me to actually build this I can still build it even if I don't have some of the equipment that I need. The main distinction between all of the options are the different ways to soder on the microcontroller. For the no pcb method you could just use an esp32 instead of a xiao rp2040.
 
@@ -44,7 +49,7 @@ Here is a picture of the front assembly that you should try to replicate.
 
 #### 3D printing
 To assemble the barrel-roll you first need to print out the parts specified in the onshape document. All the parts in the FINAL folder must be printed There will be a note with the quantity and the infill amount. The fillament for all of these will be up to you. I will personally be using TPU. If you do not want to go into the Onshape, All of the final .step files will be in [models/FinalParts](models/FinalParts).\
-\
+
  You need to print:
 * 1 BodyFinalPart1.step
 * 1 BodyFinalPart2.step
@@ -63,7 +68,10 @@ The above is the main shell
 The above is the side shell
 For the rest of it you should look at the onshape document.
 
-To assemble the Main shell with the Side Shells you can use the bowtie connector along side the fastening rod to attach each part of the SIDE_SHELL without the use of metal connectors. However you may find that securing the weapon/shaft/shaft caps and belt may be easier than attaching SIDE_SHELL to MAIN_SHELL immediately. After you get the side shells attached to the main shell you need to place all of the remaining electronics into the shell. After this is done you can use the heatset inserts into the holes at the top of the Main shell. I would highly recomend taking a look into the onshape so you can see what I am descibing here.
+To assemble the Main shell with the Side Shells you can use the bowtie connector along side the fastening rod to attach each part of the SIDE_SHELL without the use of metal connectors. To do this, you first need to slide the shell into place directly into the bowtie connector. The next thing you want to do is slot in the pin connectors into the respective hole.
+![image](ReadmeAssets/SideAssembly.gif) [video](ReadmeAssets/SideAssembly1.mp4)
+ However you may find that securing the weapon/shaft/shaft caps and belt may be easer than attaching Side Shell to Main Shell
+ immediately. After you get the side shells attached to the main shell you need to place all of the remaining electronics into the shell. After this is done you can use the heatset inserts into the holes at the top of the Main shell. I would highly recomend taking a look into the onshape so you can see what I am descibing here.
 
 
 ## Usage

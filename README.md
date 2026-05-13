@@ -68,10 +68,21 @@ The above is the main shell
 The above is the side shell
 For the rest of it you should look at the onshape document.
 
-To assemble the Main shell with the Side Shells you can use the bowtie connector along side the fastening rod to attach each part of the SIDE_SHELL without the use of metal connectors. To do this, you first need to slide the shell into place directly into the bowtie connector. The next thing you want to do is slot in the pin connectors into the respective hole.
-![image](ReadmeAssets/SideAssembly.gif) [video](ReadmeAssets/SideAssembly1.mp4)
- However you may find that securing the weapon/shaft/shaft caps and belt may be easer than attaching Side Shell to Main Shell
- immediately. After you get the side shells attached to the main shell you need to place all of the remaining electronics into the shell. After this is done you can use the heatset inserts into the holes at the top of the Main shell. I would highly recomend taking a look into the onshape so you can see what I am descibing here.
+To assemble the Main shell with the Side Shells you can use the bowtie connector along side the fastening rod to attach each part of the SIDE_SHELL without the use of metal connectors. To do this, follow the instructions below.
+
+- 1. you first need to slide the shell into place directly into the bowtie connector. The next thing you want to do is slot in the pin connectors into the respective hole.
+ [video](ReadmeAssets/SideAssembly1.mov).
+
+- 2. After this you want to slide the shaft onto the side piece. The next thing that you want to do is attach a shaft cap directly on the inside of the side shell. [video](ReadmeAssets/ShaftAssembly1.mov). 
+
+- 3. You need to slide the weapon onto the shaft. Next you need to slide the other shaft cap onto the shaft.
+[video](ReadmeAssets/ShaftAssembly2.mov). After you do this you need to attach the belt to the timing wheel of the weapon.
+
+- 4. The next thing that you need to do is you need to repeat step 1 for the other side of the case. With this you are finished with the shell assembly.
+
+
+#### Electronics
+For the electronics you want to reference the [Schematic](ReadmeAssets/barrel-roll.pdf) and the ![PCB image](ReadmeAssets/PCBRefImg.png). First you want to wire the drive motors to AOUT and BOUT pin holes respectively. Do this for both of the drive motors. The next thing that you want to do is attach the motor driver to the respective pins. Next you have to attach the ESC motor controller for the brushless motor. Next you should 
 
 
 ## Usage

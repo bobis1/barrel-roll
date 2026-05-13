@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "../../ReadmeAssets/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "barrel-roll.step",

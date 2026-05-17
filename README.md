@@ -103,5 +103,8 @@ The "master" BOM can be found here [BOM](ReadmeAssets/BOM.csv)(This will be the 
 
 
 ## Poster
-![image](ReadmeAssets/BarrelRoller.png)
+Style 1
+![image](ReadmeAssets/BarrelRoll1.png)
+Style 2
+![image](ReadmeAssets/BarrelRoll2.png)
 [Poster](Poster/Barrel%20Roller.pdf)

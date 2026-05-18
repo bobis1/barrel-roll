@@ -1,6 +1,6 @@
 # barrel-roll
 
-![image](ReadmeAssets/DissassembledRender.png)
+![image](Poster/Renders/RenderV4bDissassembled.png)
 _Slightly dissassembled view of barrel roll._
 
 ## What is this
@@ -48,30 +48,33 @@ Here is a picture of the front assembly that you should try to replicate.
 
 
 #### 3D printing
-To assemble the barrel-roll you first need to print out the parts specified in the onshape document. All the parts in the FINAL folder must be printed There will be a note with the quantity and the infill amount. The fillament for all of these will be up to you. I will personally be using TPU. If you do not want to go into the Onshape, All of the final .step files will be in [models/FinalParts](models/FinalParts).\
+To assemble the barrel-roll you first need to print out the parts specified in the onshape document. All the parts in the FINAL folder must be printed There will be a note with the quantity and the infill amount. The fillament for all of these will be up to you. I will personally be using TPU. If you do not want to go into the Onshape, All of the final .step files will be in [models/FinalParts](CAD/V5).\
 
  You need to print:
-* 1 BodyFinalPart1.step
-* 1 BodyFinalPart2.step
-* 2 n20motorToWheel.step
-* 2 shaftcap.step
-* 1 WeaponMotorTimingWheel.step
-* 1 WeaponV2.step
+* 1 BodyFinalPart1.step [Link](CAD/V5/BodyFinalPart1.step)
+* 1 BodyFinalPart2.step [Link](CAD/V5/BodyFinalPart2.step)
+* 2 n20motorToWheel.step [Link](CAD/V5/n20motorToWheel.step)
+* 1 ShaftCap [Link](CAD/V5/ShaftCapFinal.step)
+* 1 WeaponDirectDrive.step [Link](CAD/V5/WeaponDirectDrive.step)
+
 
 
 
 #### Assembling the shell
 ##### For context:
 ![image](ReadmeAssets/MainShell.png)
+[.Step File](CAD/V5/BodyFinalPart1.step)
 The above is the main shell
 ![image](ReadmeAssets/SideShell.png)
+[.Step File](CAD/V5/BodyFinalPart2.step)
+
 The above is the side shell
 For the rest of it you should look at the onshape document.
 
 To assemble the Main shell with the Side Shells you can use the bowtie connector along side the fastening rod to attach each part of the SIDE_SHELL without the use of metal connectors. To do this, follow the instructions below.
 
 - 1. you first need to slide the shell into place directly into the bowtie connector. The next thing you want to do is slot in the pin connectors into the respective hole.
- [video](ReadmeAssets/SideAssembly1.mov).
+ [video](ReadmeAssets/SideAssembly1.mov). (Yes I knbow the video is outdated I made the video before making a bunch of design changes relating to the side shell.)
 
 - 2. After this you want to slide the shaft onto the side piece. The next thing that you want to do is attach a shaft cap directly on the inside of the side shell. [video](ReadmeAssets/ShaftAssembly1.mov). 
 
@@ -80,6 +83,8 @@ To assemble the Main shell with the Side Shells you can use the bowtie connector
 
 - 4. The next thing that you need to do is you need to repeat step 1 for the other side of the case. With this you are finished with the shell assembly.
 
+#### Assembling the weapon motor system
+Assemblint the weapon system involves. 
 
 #### Electronics
 For the electronics you want to reference the [Schematic](ReadmeAssets/barrel-roll.pdf) and the ![PCB image](ReadmeAssets/PCBRefImg.png). First you want to wire the drive motors to AOUT and BOUT pin holes respectively. Do this for both of the drive motors. The next thing that you want to do is attach the motor driver to the respective pins. Next you have to attach the ESC motor controller for the brushless motor. Next you should 
@@ -103,8 +108,5 @@ The "master" BOM can be found here [BOM](ReadmeAssets/BOM.csv)(This will be the 
 
 
 ## Poster
-Style 1
 ![image](ReadmeAssets/BarrelRoll1.png)
-Style 2
-![image](ReadmeAssets/BarrelRoll2.png)
 [Poster](Poster/Barrel%20Roller.pdf)

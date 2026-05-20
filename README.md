@@ -88,10 +88,10 @@ To assemble the Main shell with the Side Shells you can use the bowtie connector
 Assemblint the weapon system involves, using the weapon motor screws to secure the motor to the side of the shell with the "shield" like so ![motorMountAssembly](ReadmeAssets/MotorMountEx.png). Next to finish securing the weapon onto the motor, simply slide the weapon onto the motor shaft then place the cap onto the motor shaft like so ![WeaponAssembly](ReadmeAssets/WeaponMountEx.png).
 With this you are almost done with the weapon motor system. n/
 
-The next thing that you need to do is slide the shaft into the bearings. Before doing this you need to cut the (90mm) shaft into a 60mm shaft.(The reason for )
+The next thing that you need to do is slide the shaft into the bearings. Before doing this you need to cut the (90mm) shaft into a 60mm shaft.(The reason for this is to cut down on the weight and to to make the shaft super long.) An alternative to this would be to print out a similarly sized rod out of ABS or petg [Here](CAD/V5/shaft.step)
 
 #### Electronics
-For the electronics you want to reference the [Schematic](ReadmeAssets/barrel-roll.pdf) and the ![PCB image](ReadmeAssets/PCBRefImg.png). First you want to wire the drive motors to AOUT and BOUT pin holes respectively. Do this for both of the drive motors. The next thing that you want to do is attach the motor driver to the respective pins. Next you have to attach the ESC motor controller for the brushless motor. Next you should 
+For the electronics you want to reference the [Schematic](ReadmeAssets/barrel-roll.pdf) and the ![PCB image](ReadmeAssets/PCBRefImg.png). First you want to wire the drive motors to AOUT and BOUT pin holes respectively. Do this for both of the drive motors. The next thing that you want to do is attach the motor driver to the respective pins. Next you have to attach the ESC motor controller for the brushless motor. Next you have to soder the jumper wires to their respective ports based on the schematic of the pcb. The schematic should have all the pins that you need to soder to.
 
 
 ## Usage

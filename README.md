@@ -56,6 +56,7 @@ To assemble the barrel-roll you first need to print out the parts specified in t
 * 2 n20motorToWheel.step [Link](CAD/V5/n20motorToWheel.step)
 * 1 ShaftCap [Link](CAD/V5/ShaftCapFinal.step)
 * 1 WeaponDirectDrive.step [Link](CAD/V5/WeaponDirectDrive.step)
+* Weapon Cap [Link](CAD/V5/WeaponMotorCap.step)
 
 
 
@@ -84,7 +85,10 @@ To assemble the Main shell with the Side Shells you can use the bowtie connector
 - 4. The next thing that you need to do is you need to repeat step 1 for the other side of the case. With this you are finished with the shell assembly.
 
 #### Assembling the weapon motor system
-Assemblint the weapon system involves. 
+Assemblint the weapon system involves, using the weapon motor screws to secure the motor to the side of the shell with the "shield" like so ![motorMountAssembly](ReadmeAssets/MotorMountEx.png). Next to finish securing the weapon onto the motor, simply slide the weapon onto the motor shaft then place the cap onto the motor shaft like so ![WeaponAssembly](ReadmeAssets/WeaponMountEx.png).
+With this you are almost done with the weapon motor system. n/
+
+The next thing that you need to do is slide the shaft into the bearings. Before doing this you need to cut the (90mm) shaft into a 60mm shaft.(The reason for )
 
 #### Electronics
 For the electronics you want to reference the [Schematic](ReadmeAssets/barrel-roll.pdf) and the ![PCB image](ReadmeAssets/PCBRefImg.png). First you want to wire the drive motors to AOUT and BOUT pin holes respectively. Do this for both of the drive motors. The next thing that you want to do is attach the motor driver to the respective pins. Next you have to attach the ESC motor controller for the brushless motor. Next you should 

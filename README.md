@@ -22,7 +22,7 @@ The above is a picture of the schematic for anyone using the DOIT esp32 devkit v
 
 
 ## Assembly
-Onshape link: https://cad.onshape.com/documents/4d0cf8c11fd66439fc3e30b0/w/a8064dfad10d7d33689fe150/e/b5006982824e862bc7271070?renderMode=0&uiState=69e65a2ccd9a40dd9e183c54
+Onshape link: https://cad.onshape.com/documents/4d0cf8c11fd66439fc3e30b0/w/a8064dfad10d7d33689fe150/e/62081654516d84e6ca0ee160
 ![image](ReadmeAssets/FinalAssembly.png)
 A note about the assembly: I could not find 3d models of the bearings I wanted to use so I made a model with the same dimensions as the bearings. /n
 

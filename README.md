@@ -3,6 +3,12 @@
 ![image](Poster/Renders/RenderV4bDissassembled.png)
 _Slightly dissassembled view of barrel roll._
 
+
+Currently there are some issues with this project
+## TODO
+- Fix the pcb to have the correct footprint
+
+
 ## What is this
 Barrel roll is a 150g combat robot that has a 2.706693 inch long bar spinner. There are two options for the microcontroller of the robot. Right now I have a pcb designed with a RP2040 in mind. I also have a version of the schematic/firmware with an esp32 as the microcontroller.
 
